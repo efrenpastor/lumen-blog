@@ -17,7 +17,7 @@ module.exports = {
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/pages/sobre-nosotros'
     },
     {
       label: 'Contact me',
