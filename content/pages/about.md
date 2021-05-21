@@ -1,7 +1,7 @@
 ---
 template: page
 title: Sobre nosotros
-slug: about
+slug: sobre-nosotros
 socialImage: /media/image-2.jpg
 draft: false
 ---
