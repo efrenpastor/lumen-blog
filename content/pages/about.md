@@ -1,6 +1,6 @@
 ---
 template: page
-title: About me
+title: Sobre nosotros
 slug: about
 socialImage: /media/image-2.jpg
 draft: true
