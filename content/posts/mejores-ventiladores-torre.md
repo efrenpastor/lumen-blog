@@ -32,9 +32,7 @@ Hay muchos ventiladores en el mercado y puede ser difícil saber cual es el mejo
 
 ## El mejor ventilador de torre
 
-<amazon name="Pro Breeze Ventilador de Torre Oscilante" image="https://images-na.ssl-images-amazon.com/images/I/61ShphZR1aL._AC_SY355_.jpg" price="59,99€" url="https://www.amazon.es/Pro-Breeze-Ventilador-Oscilante-Temporizador/dp/B01N5QOU82">
-
-!!!Ficha: Pro Breeze Ventilador de Torre Oscilante - https://www.amazon.es/Pro-Breeze-Ventilador-Oscilante-Temporizador/dp/B01N5QOU82
+{{< Amazon name="Pro Breeze Ventilador de Torre Oscilante" image="https://images-na.ssl-images-amazon.com/images/I/61ShphZR1aL._AC\_SY355\_.jpg" price="59,99€" url="https://www.amazon.es/Pro-Breeze-Ventilador-Oscilante-Temporizador/dp/B01N5QOU82" >}}
 
 Ventilador muy bien valorado por parte de los usuario. Cuenta con un mando a distancia, tres velocidad, tres modos de ventilación y temporizador de 7,5 horas.
 Su motor de 60W es de los más potentes para cualquier habitación.
