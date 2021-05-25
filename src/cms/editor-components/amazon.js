@@ -1,4 +1,5 @@
-import AmazonComponent from '../../components/Amazon/Amazon'
+import React from 'react';
+import AmazonComponent from '../../components/Amazon/Amazon';
 
 const Amazon = {
   // Internal id of the component
@@ -13,7 +14,7 @@ const Amazon = {
     { name: 'url', label: 'Url', widget: 'string' }
   ],
   // Pattern to identify a block as being an instance of this component
-  pattern: /^{{< Amazon name="(.*)" image="(.*)" price="(.*)" url="(.*)" >}}$/,
+  pattern: /^<AmazonComponent product={name:(.*), image:(.*), price:(.*), url:(.*)} \/>/,
   // Function to extract data elements from the regexp match
   fromBlock: match =>
     match && {
@@ -24,7 +25,7 @@ const Amazon = {
     },
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
-    return `{{< Amazon name=\"${obj.name}\" image=\"${obj.image}\" price=\"${obj.price}\" url=\"${obj.url}\" >}}`
+    return '<AmazonComponent product={name:' + obj.name + ', image:' + obj.image + ', price:' + obj.price + ', url:' + obj.url + '} />';
   },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
