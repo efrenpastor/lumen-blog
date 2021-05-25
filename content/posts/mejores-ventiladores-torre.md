@@ -32,6 +32,8 @@ Hay muchos ventiladores en el mercado y puede ser difícil saber cual es el mejo
 
 ## El mejor ventilador de torre
 
+<amazon name="Pro Breeze Ventilador de Torre Oscilante" image="https://images-na.ssl-images-amazon.com/images/I/61ShphZR1aL._AC_SY355_.jpg" price="59,99€" url="https://www.amazon.es/Pro-Breeze-Ventilador-Oscilante-Temporizador/dp/B01N5QOU82">
+
 !!!Ficha: Pro Breeze Ventilador de Torre Oscilante - https://www.amazon.es/Pro-Breeze-Ventilador-Oscilante-Temporizador/dp/B01N5QOU82
 
 Ventilador muy bien valorado por parte de los usuario. Cuenta con un mando a distancia, tres velocidad, tres modos de ventilación y temporizador de 7,5 horas.
@@ -84,8 +86,8 @@ El ventilador de torre funciona absorbiendo aire y expulsándolo al exterior, lo
 
 ### ¿Qué tipos de ventiladores existen?
 
-[Mejores Ventiladores de sobremesa 2021]()
-[Mejores Ventiladores de pared 2021]()
-[Mejores Ventilador de techo 2021]()
-[Mejores Ventiladores sin aspas de sobremesa 2021]()
-[Mejores Ventiladores de pedestal 2021]()
+[Mejores Ventiladores de sobremesa 2021](<>)
+[Mejores Ventiladores de pared 2021](<>)
+[Mejores Ventilador de techo 2021](<>)
+[Mejores Ventiladores sin aspas de sobremesa 2021](<>)
+[Mejores Ventiladores de pedestal 2021](<>)
