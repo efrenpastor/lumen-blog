@@ -1,15 +1,17 @@
 ---
+template: post
 title: Los 5 mejores ventiladores de torre para casa.
-date: "2016-09-01T23:46:37.121Z"
-template: "post"
-draft: true
-slug: "mejores-ventiladores-torre"
-category: "Ventiladores"
+slug: mejores-ventiladores-torre
+socialImage: /media/image-2.jpg
+draft: false
+date: 2016-09-01T23:46:37.121Z
+description: Estos son los mejores ventiladores de torre para tu casa.
+  Comparativa de los ventiladores de torre mejor valorador de las marcas
+  Orbegozo, Rowenta, Taurus, Pro Breeze y Aigostar.
+category: Ventiladores
 tags:
-  - "Ventiladores"
-  - "Ventiladores de torre"
-description: "Estos son los mejores ventiladores de torre para tu casa. Comparativa de los ventiladores de torre mejor valorador de las marcas Orbegozo, Rowenta, Taurus, Pro Breeze y Aigostar."
-socialImage: "/media/image-2.jpg"
+  - Ventiladores
+  - Ventiladores de torre
 ---
 
 !!!H1 Mejor ventilador de torre 2021
