@@ -14,17 +14,17 @@ const AmazonComponent = ({ product }: Props) => {
 
   return (
     // <div className={styles['product']}>
-    <div style={{border: '2px solid #dadada', padding: '15px', borderRadius: '3px'}}>
-      <div>
+    <div style={{border: '2px solid #dadada', padding: '40px', borderRadius: '3px', display: 'grid', gridTemplateColumns: '1fr 2fr', gridColumnGap: '20px'}}>
+      <div style={{paddingRight: '20px', borderRight: '3px solid #DADADA'}}>
         <a href={url} rel="noopener noreferrer nofollow" target="_blank">
           <img src={image} alt={name} />
         </a>
       </div>
       <div>
-        <a href={url} rel="noopener noreferrer nofollow" target="_blank">{name}</a>
+        <a style={{textDecoration: 'none', color: '#222', fontWeight: '600', fontSize: '20px'}} href={url} rel="noopener noreferrer nofollow" target="_blank">{name}</a>
         <div>
           <span>{price}</span>
-          <a href={url} rel="noopener noreferrer nofollow" target="_blank">{url}</a>
+          <a href={url} rel="noopener noreferrer nofollow" target="_blank">Comprar en Amazon</a>
         </div>
       </div>
     </div>
