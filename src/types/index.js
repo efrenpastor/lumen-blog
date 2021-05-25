@@ -42,6 +42,13 @@ export type Node = {
   id: string
 };
 
+export type Amazon = {
+  name: string,
+  image: string,
+  price: string,
+  url: string
+}
+
 export type Edge = {
   node: Node
 };
