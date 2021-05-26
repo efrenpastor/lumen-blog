@@ -41,9 +41,9 @@ Tiene una bandeja de aceites esenciales para perfumar la habitación y además e
 
 Ventilador de gran potencia, con un bajo nivel sonoro, con aceites esenciales y apagado automático.
 
-## H2 Mejor ventilador de torre barato
+## Mejor ventilador de torre barato
 
-!!!Ficha: Orbegozo TW 0850 - https://www.amazon.es/Orbegozo-TW-0850-temporizador-velocidades/dp/B07CZL9L21
+<AmazonComponent product={{name:"Orbegozo TW 0850", image:"https://images-na.ssl-images-amazon.com/images/I/51xd8OksIfL._AC_SL1152_.jpg", price:"37,90€", url:"https://www.amazon.es/Orbegozo-TW-0850-temporizador-velocidades/dp/B07CZL9L21"}} />
 
 Orbegozo nos ofrece un ventilador de torre de gran potencia de 60W por un precio reducido. Con 3 niveles de velocidad, temporizador de hasta 2 horas, bajo nivel sonoro y control a distancia es una buena opción calidad precio.
 
@@ -51,7 +51,7 @@ Su oscilación se queda en 90 grados, la media en este tipo de ventilador, cuent
 
 ## Mejor ventilador de torre simple
 
-!!!Ficha: Aigostar 33JTS - https://www.amazon.es/Aigostar-33JTS-temporizador-programable-velocidades/dp/B07QVKSSQZ
+<AmazonComponent product={{name:"Aigostar 33JTS", image:"https://images-na.ssl-images-amazon.com/images/I/61ZB6E3ajtL._AC_SL1500_.jpg", price:"54,99€", url:"https://www.amazon.es/Aigostar-33JTS-temporizador-programable-velocidades/dp/B07QVKSSQZ"}} />
 
 Aigostar nos trae un ventilador simple de tres velocidades perfecto para cualquier habitación. Su motor de 45W está en la media de potencia de la competencia, pero a cambio es muy silencioso.
 
@@ -61,7 +61,7 @@ En resumen, un ventilador simple, de buen precio con un buen caudal de aire y mu
 
 ## Mejor ventilador de torre automático
 
-!!!Ficha: Taurus Babel RC - https://www.amazon.es/Taurus-Alpatec-Babel-RC-Ventilador/dp/B007PS4WHC
+<AmazonComponent product={{name:"Taurus Babel RC", image:"https://images-na.ssl-images-amazon.com/images/I/61jH9aeCU6L._AC_SL1500_.jpg", price:"62,60€", url:"https://www.amazon.es/Taurus-Alpatec-Babel-RC-Ventilador/dp/B007PS4WHC"}} />
 
 El ventilador de torre Taurus cuenta con una potencia de 45W y cuenta con 3 niveles de potencia para el caudal de aire.
 Las ventajas de este modelo son el mando a distancia, temporizador de hasta 7 horas y apagado automático. Cuenta con buenos acabados y asa de transporte.
@@ -70,7 +70,7 @@ Ventilador liviano, portable, con bajo nivel sonoro y apagado automático.
 
 ## Mejor ventilador de torre premium
 
-!!!Ficha: Rowenta Eole Infinite Digital VU6670 - https://www.amazon.es/Rowenta-VU6670-Ventilador-Eole-Infrarred/dp/B06W521GNQ
+<AmazonComponent product={{name:"Rowenta Eole Infinite Digital VU6670", image:"https://images-na.ssl-images-amazon.com/images/I/412zAiAPleL._AC_SL1007_.jpg", price:"98,99€", url:"https://www.amazon.es/Rowenta-VU6670-Ventilador-Eole-Infrarred/dp/B06W521GNQ"}} />
 
 Rowenta nos trae este ventilador de diseño con una potencia de 40W, sin duda donde destaca es en su oscilación de 180 grados.
 Cuenta con mando a distancia, 3 velocidades, temporizador hasta 8 horas, corte automático a las 12 horas y almacenamiento de cable en la base.
