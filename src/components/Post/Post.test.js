@@ -19,7 +19,7 @@ describe('Post', () => {
   const props = {
     post: {
       id: 'test-123',
-      html: '<p>test</p>',
+      body: '<p>test</p>',
       fields: {
         slug: '/test',
         categorySlug: '/test-category',

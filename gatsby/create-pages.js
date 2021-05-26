@@ -27,10 +27,10 @@ const createPages = async ({ graphql, actions }) => {
     component: path.resolve('./src/templates/categories-list-template.js')
   });
 
-  // Posts and pages from markdown
+  // Posts and pages from mdx
   const result = await graphql(`
     {
-      allMarkdownRemark(
+      allMdx(
         filter: { frontmatter: { draft: { ne: true } } }
       ) {
         edges {
@@ -47,7 +47,7 @@ const createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  const { edges } = result.data.allMarkdownRemark;
+  const { edges } = result.data.allMdx;
 
   _.each(edges, (edge) => {
     if (_.get(edge, 'node.frontmatter.template') === 'page') {

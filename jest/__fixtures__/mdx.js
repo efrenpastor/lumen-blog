@@ -1,8 +1,9 @@
 'use strict';
 
 module.exports = {
-  markdownRemark: {
+  mdx: {
     id: 'test-123',
+    body: '<p>test</p>',
     html: '<p>test</p>',
     fields: {
       tagSlugs: [

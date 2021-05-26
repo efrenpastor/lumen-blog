@@ -1,5 +1,7 @@
 'use strict';
 
+const remarkMath = require('remark-math');
+const remarkHtmlKatex = require('remark-html-katex');
 const siteConfig = require('./config.js');
 const postCssPlugins = require('./postcss-config.js');
 
@@ -58,8 +60,8 @@ module.exports = {
           }
         `,
         feeds: [{
-          serialize: ({ query: { site, allMarkdownRemark } }) => (
-            allMarkdownRemark.edges.map((edge) => ({
+          serialize: ({ query: { site, allMdx } }) => (
+            allMdx.edges.map((edge) => ({
               ...edge.node.frontmatter,
               description: edge.node.frontmatter.description,
               date: edge.node.frontmatter.date,
@@ -70,7 +72,7 @@ module.exports = {
           ),
           query: `
               {
-                allMarkdownRemark(
+                allMdx(
                   limit: 1000,
                   sort: { order: DESC, fields: [frontmatter___date] },
                   filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
@@ -98,17 +100,15 @@ module.exports = {
         }]
       }
     },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-netlify',
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: 'gatsby-plugin-mdx',
       options: {
-        plugins: [
+        extensions: ['.mdx', '.md'],
+        gatsbyRemarkPlugins: [
           'gatsby-remark-relative-images',
-          {
-            resolve: 'gatsby-remark-katex',
-            options: {
-              strict: 'ignore'
-            }
-          },
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -124,13 +124,17 @@ module.exports = {
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
-          'gatsby-remark-external-links'
-        ]
-      }
+          'gatsby-remark-external-links',
+          {
+            resolve: 'gatsby-remark-katex',
+            options: {
+              strict: 'ignore'
+            }
+          },
+        ],
+        remarkPlugins: [remarkMath, remarkHtmlKatex]
+      },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
